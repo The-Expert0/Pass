@@ -146,6 +146,7 @@ def create_db():
             # print("Соединение с SQLite закрыто")
 
 
+# create_db() # Создание БД и таблицы
 while True:
     cmd = input(f"\n{'-' * 40}\n"
                 f"Выберете пункт меню введя цифру:\n"
