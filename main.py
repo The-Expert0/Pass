@@ -147,6 +147,7 @@ def create_db():
 
 
 def drop_table():
+    """Функция для сброса таблицы."""
     print("Таблица очищена.")
     query = "DROP TABLE list_passwords;"
     sql_commit(query)
@@ -154,6 +155,7 @@ def drop_table():
 
 # create_db() # Создание БД и таблицы
 def main():
+    """Основная функция"""
     while True:
         cmd = input(f"\n{'-' * 40}\n"
                     f"Выберете пункт меню введя цифру:\n"
